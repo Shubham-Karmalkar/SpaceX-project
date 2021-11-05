@@ -6,6 +6,7 @@ import Home from "./Pages/Home" ;
 import BookMark from "./Pages/BookMark";
 import NextMission from "./Pages/NextMission";
 import Favourites from "./Pages/Favourites";
+import Footer from './Footer/Footer';
 
 function App() {
   
@@ -22,6 +23,7 @@ function App() {
         </Switch>
         </div>
       </Router>
+      <Footer/>      
     </div>
   );
 }
