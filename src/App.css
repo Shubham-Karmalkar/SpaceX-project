@@ -1,7 +1,20 @@
 .App {
-  text-align: center;
+  /* text-align: center */
+  background-image: url("./Images/background.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  background-attachment: fixed;
+  background-position: center center;
 }
 
+.data{
+  align-self: center;
+  height: 100%;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
