@@ -7,6 +7,7 @@ import BookMark from "./Pages/BookMark";
 import NextMission from "./Pages/NextMission";
 import Favourites from "./Pages/Favourites";
 import Footer from './Footer/Footer';
+import Share from './Share/Share'
 
 function App() {
   
@@ -23,6 +24,7 @@ function App() {
         </Switch>
         </div>
       </Router>
+      <Share/>
       <Footer/>      
     </div>
   );
