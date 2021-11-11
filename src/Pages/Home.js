@@ -18,7 +18,7 @@ const createData = (value)=>{
     
     setData({mission_Name : missionName,
         siteName : site_name,
-        mission_date : date.toUTCString()});
+        mission_date : date.toUTCString()} );
 
         console.log('daate', Date.parse(data.mission_date))
 }
@@ -49,9 +49,9 @@ setInterval(()=>{
   return (
     <div className={styles.homeContainer}>
       {isLoading ? (
-        <div>Loading...</div>
+        <div className={styles.loading}>Loading....</div>
       ) : isError ? (
-        <div>{isError}</div>
+        <div className={styles.loading}>{isError}</div>
       ) : (
         <div className={styles.dataContainer}>
           <table>
@@ -70,7 +70,6 @@ setInterval(()=>{
               </tr>
             </tbody>
           </table>
-
 
           <div className={styles.counter}>
             <div className={styles.days + " " + styles.time}>

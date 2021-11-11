@@ -9,6 +9,7 @@
   flex-direction: column;
   background-attachment: fixed;
   background-position: center center;
+  overflow: hidden;
 }
 
 .data{
