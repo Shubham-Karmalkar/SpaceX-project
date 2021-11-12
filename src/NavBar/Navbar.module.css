@@ -55,6 +55,7 @@
     padding: 0px 10px;
     line-height: 40px;
     margin: 0px;
+    z-index: 5;
 } 
 
 .dropdown:hover .menuLinks{

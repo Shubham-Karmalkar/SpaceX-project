@@ -11,11 +11,20 @@ const Footer = ()=>{
           <img className={styles.img} src={logo} alt="logo" />
           @2021 all rights reserved
         </div>
-        
+
         <div className={styles.socialMedia}>
-          <img className={styles.socialLogo} src={github} alt="github" />
-          <img className={styles.socialLogo} src={linkedin} alt="linkedin" />
-          <img className={styles.socialLogo} src={twitter} alt="twitter" />
+          <a href={"https://github.com/Shubham-Karmalkar"} target="_blank">
+            <img className={styles.socialLogo} src={github} alt="github" />
+          </a>
+          <a
+            href={"https://www.linkedin.com/in/shubham-karmalkar-20245218b/"}
+            target="_blank"
+          >
+            <img className={styles.socialLogo} src={linkedin} alt="linkedin" />
+          </a>
+          <a href={"https://github.com/Shubham-Karmalkar"} target="_blank">
+            <img className={styles.socialLogo} src={twitter} alt="twitter" />
+          </a>
         </div>
       </div>
     );

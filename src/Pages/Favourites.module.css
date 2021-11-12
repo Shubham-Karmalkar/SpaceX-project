@@ -1,0 +1,37 @@
+.container{
+    color: white;
+    margin-top: 25%;
+    height: 100%;
+}
+.loading{
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 22px;
+}
+table{
+    font-size: 20px;
+}
+th, td {
+    background-color: rgba(0, 0,0,0.5);
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+@media screen and (max-width : 650px) { 
+    table{
+        font-size: 18px;
+    }
+} 
+@media screen and (max-width : 600px) {
+    table{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width : 520px) {
+    th, td{
+        padding: 5px;
+    }
+}
